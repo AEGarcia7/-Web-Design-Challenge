@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Summary Page (Max Temp)</title>
+    <title>Wind Speed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
@@ -40,15 +40,15 @@
     <div class="container">
     <div class="row mt-5" style="padding: 5%;">
         <div class="col-lg-6" style="background-color: #375a7f; margin-left: auto; display: flex;flex-wrap: wrap;">
-            <h1 style="padding-top: 10%;">Summary: Latitude Vs. Max Temperature</h1>            
-            <img src="./assets/images/Fig1.png" style="width: 100%; object-fit: contain;" alt="Max Temperature" >
+            <h1 style="padding-top: 10%;">Summary: Latitude Vs. Wind Speed</h1>            
+            <img src="./assets/images/Fig4.png" style="width: 100%; object-fit: contain;" alt="WindSpeed" >
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset from over 500 cities.            
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-            This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-            For this chart, temperature seemed to maximize within 20 degrees of latitude to either side of 0, with it getting colder the further away, especially on the positive side of the x-axis(latitude).
-          </p>
+                To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset from over 500 cities.            
+                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
+                This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                For this chart, the big correlation seems to be that around the world, most of the wind speeds seem to stay under 10 miles per hour. However, there does seem to be a small spike in wind speeds the further you get away from 0 degrees on the x-axis.
+            </p>
         </div>
         <div class="col-lg-5" style="background-color: #375a7f; margin-left: auto; display: flex; flex-wrap: wrap;" >
           <h1 style="padding-top: 10%;">Visualizations</h1>
